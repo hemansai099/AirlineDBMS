@@ -1,23 +1,13 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Min</title>
+        <title>DBMS</title>
     </head>
-    <style>
-        body{
-                background-image: url(index.jpg);
-                background-size: cover;
-                background-attachment: fixed;
-            }
-            img{
-                width: 40%;
-                padding: 7px;
-                display: block;
-                transition: 0.4s;
-            }
-    </style>
-    <body>
-        <h1 style="color: red";><u>Index</u></h1>
-            <img src="index1.png" alt=""/><br>
-            <img src="index2.png" alt=""/><br>
-    </body>
+    <frameset rows="150,*">
+        <frame name="menu" src="menu.html"/>
+    <frameset cols="200,*">
+        <frame name="details" src="details.html"/>
+        <frame name="main" src="main.html"/>
+    </frameset>
+    </frameset>
+</html>
